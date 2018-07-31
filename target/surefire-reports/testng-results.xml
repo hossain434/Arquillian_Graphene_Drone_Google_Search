@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Arquillian1.SearchPageTest" duration-ms="28702" started-at="2018-07-31T04:24:27Z" finished-at="2018-07-31T04:24:55Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="28702" started-at="2018-07-31T04:24:27Z" finished-at="2018-07-31T04:24:55Z">
+      <class name="Arquillian1.SearchPageTest">
+        <test-method status="PASS" signature="arquillianBeforeSuite()[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeSuite" is-config="true" duration-ms="535" started-at="2018-07-30T21:24:26Z" finished-at="2018-07-30T21:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeSuite -->
+        <test-method status="PASS" signature="arquillianBeforeClass()[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeClass" is-config="true" duration-ms="16" started-at="2018-07-30T21:24:27Z" finished-at="2018-07-30T21:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeClass -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="4260" started-at="2018-07-30T21:24:27Z" finished-at="2018-07-30T21:24:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="4275" started-at="2018-07-30T21:24:31Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test automation guru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="3" started-at="2018-07-30T21:24:35Z" finished-at="2018-07-30T21:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="19" started-at="2018-07-30T21:24:35Z" finished-at="2018-07-30T21:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="2325" started-at="2018-07-30T21:24:35Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="2" started-at="2018-07-30T21:24:38Z" finished-at="2018-07-30T21:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="16" started-at="2018-07-30T21:24:38Z" finished-at="2018-07-30T21:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="2003" started-at="2018-07-30T21:24:38Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dockerized selenium grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="5" started-at="2018-07-30T21:24:40Z" finished-at="2018-07-30T21:24:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-07-30T21:24:40Z" finished-at="2018-07-30T21:24:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="2622" started-at="2018-07-30T21:24:40Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test automation blog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-07-30T21:24:42Z" finished-at="2018-07-30T21:24:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="6" started-at="2018-07-30T21:24:42Z" finished-at="2018-07-30T21:24:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="2507" started-at="2018-07-30T21:24:42Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jmeter docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-07-30T21:24:45Z" finished-at="2018-07-30T21:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="5" started-at="2018-07-30T21:24:45Z" finished-at="2018-07-30T21:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="2388" started-at="2018-07-30T21:24:45Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test automation guru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="1" started-at="2018-07-30T21:24:47Z" finished-at="2018-07-30T21:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="7" started-at="2018-07-30T21:24:47Z" finished-at="2018-07-30T21:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="2307" started-at="2018-07-30T21:24:47Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-07-30T21:24:49Z" finished-at="2018-07-30T21:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="5" started-at="2018-07-30T21:24:49Z" finished-at="2018-07-30T21:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="1465" started-at="2018-07-30T21:24:49Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dockerized selenium grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="4" started-at="2018-07-30T21:24:51Z" finished-at="2018-07-30T21:24:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-07-30T21:24:51Z" finished-at="2018-07-30T21:24:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="1675" started-at="2018-07-30T21:24:51Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test automation blog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianBeforeTest" is-config="true" duration-ms="4" started-at="2018-07-30T21:24:53Z" finished-at="2018-07-30T21:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-07-30T21:24:53Z" finished-at="2018-07-30T21:24:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="googleTest" duration-ms="2074" started-at="2018-07-30T21:24:53Z" data-provider="search-keywords" finished-at="2018-07-30T21:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jmeter docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2018-07-30T21:24:55Z" finished-at="2018-07-30T21:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Arquillian1.SearchPageTest.googleTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method status="PASS" signature="arquillianAfterClass()[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterClass" is-config="true" duration-ms="691" started-at="2018-07-30T21:24:55Z" finished-at="2018-07-30T21:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterClass -->
+        <test-method status="PASS" signature="arquillianAfterSuite()[pri:0, instance:Arquillian1.SearchPageTest@16905e]" name="arquillianAfterSuite" is-config="true" duration-ms="3" started-at="2018-07-30T21:24:55Z" finished-at="2018-07-30T21:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterSuite -->
+      </class> <!-- Arquillian1.SearchPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Arquillian1.SearchPageTest -->
+</testng-results>
